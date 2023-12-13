@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap");
+.section-1 {
+  width: 100%;
+  display: flex;
+  height: 998px;
+  font-family: "Raleway", sans-serif;
+}
+.left {
+  width: 762px;
+  background-color: #171420;  
+
+}
+.right {
+    background-color: #171420;  
+    width: 100%;
+}
+.text {
+  margin-left: 100px;
+  margin-top: 105px;
+  margin-right: 99px;
+  width: 563px;
+  text-align: left;
+}
+.welcome {
+  font-size: 20px;
+  color: #2a4af4;
+  font-weight: 600;
+}
+.company {
+  font-size: 73px;
+  color: #ffffff;
+  line-height: 87.63px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.lorem {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #9b9b9b;
+  width: 400px;
+  margin-top: -50px;
+}
+.buttons {
+  display: flex;
+  width: 400px;
+}
+.start {
+  width: 186px;
+  height: 78px;
+  padding: 10px 14px 10px 14px;
+  background-color: #5f65f4;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.plan {
+  width: 186px;
+  height: 78px;
+  padding: 10px 14px 10px 14px;
+  background-color: #171420;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.numbers {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+.review {
+  width: 128px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 51px;
+}
+.hosting {
+  width: 128px;
+  margin-left: 29px;
+  margin-top: 51px;
+}
+
+.plus {
+    width: 11px;
+    height: 28px;
+    font-size: 24px;
+    color:#2a4af4;
+    margin-left: 112px;
+    margin-top: 3px;
+    transform: translateY(20px);
+}
+.number {
+  font-size: 64px;
+  font-weight: 500;
+  width: 128px;
+  height: 78px;
+  margin-top: -30px;
+  color: #ffffff;
+}
+.review-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #9b9b9b;
+  width: 126px;
+  height: 19px;
+  margin-top: -60px;
+}
+.man{
+    width: 625px;
+    height: 671.09px;
+    margin-top: 30px;
+}
+
+.info{
+    display: flex;
+}
+.server{
+    width: 311px;
+    height: 174px;
+    background-color: #9694E7;
+    display: flex;
+    margin-top: -7px;
+}
+.vector{
+width: 70px;
+height: 60px;
+border-radius: 50%;
+background-color: #ffffff;
+margin-top: 44px;
+margin-left: 30px;
+}
+.server-right{
+text-align: left;
+margin-top: 46px;
+padding-left: 11px;
+}
+.img{
+    margin-top: 12px;
+   
+}
+.server-right p{
+    color: #ffffff;
+
+}
+.ssl{
+    display: flex;
+    background-color: #5f65f4;
+    width: 314px;
+    height: 273px;
+    margin-top: -106px;
+}
+.support{
+    display: flex;
+    margin-top: -158px;
+    width: 314px;
+}
+

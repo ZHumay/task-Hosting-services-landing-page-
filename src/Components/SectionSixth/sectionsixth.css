@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap");
+
+.section-6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  background-color: #171420;
+}
+.freedom {
+    font-size: 60px;
+    font-weight: 700;
+    width: 874px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .head-text-6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a4af4;
+    margin-top: 150px;
+  }
+
+
+  .bottom-6{
+    background-color: #171420;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes-6{
+    background-color: #171420;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1097px;
+}
+.box-1-6,.box-2-6,.box-3-6{
+    width: 347px;
+    height: 788px;
+    background-color: #ffffff;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.plan-head{
+    text-align: left;
+    height: 140px;
+    transform: translateY(-52px);
+    width: 318px;
+}
+.plan-text{
+    width: 318px;
+    
+}
+.plan-6{
+    font-size: 40px;
+    font-weight: 700;
+    color: #171420;
+}
+.percent{
+    font-size: 32px;
+    font-weight: 500;
+    color: #2A4AF4;
+    margin-top: -40px;
+}
+.list{
+    font-size: 24px;
+    font-weight: 500;
+    color: #5c5c5c;
+    margin-top: -10px;
+
+}
+.intoffer{
+    width: 318px;
+}
+.intro{
+    font-size: 24px;
+    font-weight: 700;
+    color: #171420;
+}
+.monthly{
+    font-size: 32px;
+    font-weight: 500;
+    color: #2A4AF4;
+    margin-top: -20px;
+}
+.buynow{
+    width: 314px;
+    height: 81px;
+    background-color: #2a4af4;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap");
+
+.section-8 {
+    background-color: #171420;
+}
+.text-8 {
+  width: 1335px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.text-8-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: -160px;
+}
+.testimonial-8 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2a4af4;
+  margin-top: 90px;
+}
+.about-8 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 600px;
+  margin-top: -10px;
+}
+.view {
+  width: 186px;
+  height: 78px;
+  background-color: #5f65f4;
+  color: #ffffff;
+  border: none;
+  margin-top: 140px;
+  margin-left: 70px;
+  transform: translateX(50px);
+}
+.box-1-8,
+.box-2-8,
+.box-3-8 {
+  width: 399px;
+  height: 397px;
+  background-color: #1f1d2c;
+  margin-right: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom {
+  background-color: #171420;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes-8 {
+  background-color: #171420;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1333px;
+}
+.box-1-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets//images/Rectangle\ 23.png");
+  
+}
+.box-2-8{
+    display: flex;
+    flex-direction: column;
+}
+.img-8 {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+.circle-8 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  
+}
+.box-lorem-8{
+    font-size: 20px;
+    color: #9b9b9b;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 348px;
+    margin-left: -20px;
+}
+.stars{
+    margin-left: -20px;
+}
+.ceo{
+    display: flex;
+}
+.circle-ceo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url("../../assets/images/Ellipse\ 13.png");
+    margin-left: -90px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 8px;
+}
+.role{
+    font-size: 15px;
+    font-weight: 500;
+    color:#2a4af4;
+    margin-top: -20px;
+}
+.ceotext{
+    margin-left: 17px;
+}

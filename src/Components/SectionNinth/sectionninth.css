@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap");
+
+.section-9 {
+  background-color: #1f1d2c;
+  display: flex;
+  margin-top: 107px;
+}
+.text-9 {
+  margin-left: 100px;
+  margin-right: 99px;
+  width: 563px;
+  text-align: left;
+  margin-top: 90px;
+}
+.welcome-9 {
+  font-size: 20px;
+  color: #2a4af4;
+  font-weight: 600;
+  transform: translateY(90px);
+}
+.company-9 {
+  font-size: 60px;
+  color: #ffffff;
+  line-height: 87.63px;
+  margin-top: 100px;
+  font-weight: bold;
+  width: 621px;
+}
+.left-9{
+    width: 50%;
+}
+.right-9{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+width: 595px;
+height: 631px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: left;
+background-image: url(../../assets/images/happy-black-man-pointing-at-digital-tablet-screen-YWD94AD-1-800x945.png);
+background-repeat: no-repeat;
+background-position: 100px 50px;
+background-color: #181420;
+}
+.check{
+    margin-top: 120px;
+    margin-left: 16px;
+}
