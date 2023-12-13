@@ -969,6 +969,13 @@
     font-size: 18px;
     line-height: 38px;
     transition: all 0.5s;
+   
+   
+  }
+
+  footer ul{
+    width: 243px;
+    text-align: left;
   }
   footer li a:hover {
     padding-left: 15px;
