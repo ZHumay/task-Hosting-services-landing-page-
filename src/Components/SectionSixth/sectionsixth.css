@@ -8,13 +8,115 @@
   background-color: #171420;
 }
 .freedom {
-    font-size: 60px;
+  font-size: 60px;
+  font-weight: 700;
+  width: 874px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.head-text-6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2a4af4;
+  margin-top: 150px;
+}
+
+.bottom-6 {
+  background-color: #171420;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes-6 {
+  background-color: #171420;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1097px;
+}
+.box-1-6,
+.box-2-6,
+.box-3-6 {
+  width: 347px;
+  height: 788px;
+  background-color: #ffffff;
+  margin-right: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.plan-head {
+  text-align: left;
+  height: 140px;
+  transform: translateY(-52px);
+  width: 318px;
+}
+.plan-text {
+  width: 318px;
+}
+.plan-6 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #171420;
+}
+.percent {
+  font-size: 32px;
+  font-weight: 500;
+  color: #2a4af4;
+  margin-top: -40px;
+}
+.list {
+  font-size: 24px;
+  font-weight: 500;
+  color: #5c5c5c;
+  margin-top: -10px;
+}
+.intoffer {
+  width: 318px;
+}
+.intro {
+  font-size: 24px;
+  font-weight: 700;
+  color: #171420;
+}
+.monthly {
+  font-size: 32px;
+  font-weight: 500;
+  color: #2a4af4;
+  margin-top: -20px;
+}
+.buynow {
+  width: 314px;
+  height: 81px;
+  background-color: #2a4af4;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .section-6 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    background-color: #171420;
+  }
+  .freedom {
+    font-size: 20px;
     font-weight: 700;
-    width: 874px;
+    width: 174px;
     color: #ffffff;
     margin-top: 20px;
   }
-  
+
   .head-text-6 {
     font-size: 20px;
     font-weight: 600;
@@ -22,25 +124,50 @@
     margin-top: 150px;
   }
 
-
-  .bottom-6{
+  .bottom-6 {
     background-color: #171420;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.boxes-6{
+  }
+  .boxes-6 {
     background-color: #171420;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1097px;
-}
-.box-1-6,.box-2-6,.box-3-6{
-    width: 347px;
-    height: 788px;
+    width: 100%;
+  }
+  .plan-head {
+    text-align: left;
+    height: 140px;
+    transform: translateY(-52px);
+    width: 318px;
+  }
+  .plan-text {
+    width: 118px;
+  }
+  .plan-6 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #171420;
+  }
+  .percent {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2a4af4;
+    margin-top: -40px;
+  }
+  .list {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5c5c5c;
+    margin-top: -10px;
+  }
+  .box-1-6, .box-2-6, .box-3-6 {
+    width: 147px;
+    height: 515px;
     background-color: #ffffff;
-    margin-right: 18px;
+    margin-right: 2px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -48,56 +175,182 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    margin-left: 20px;
 }
-.plan-head{
-    text-align: left;
-    height: 140px;
-    transform: translateY(-52px);
-    width: 318px;
-}
-.plan-text{
-    width: 318px;
-    
-}
-.plan-6{
-    font-size: 40px;
-    font-weight: 700;
-    color: #171420;
-}
-.percent{
-    font-size: 32px;
-    font-weight: 500;
-    color: #2A4AF4;
-    margin-top: -40px;
-}
-.list{
-    font-size: 24px;
-    font-weight: 500;
-    color: #5c5c5c;
-    margin-top: -10px;
 
-}
-.intoffer{
-    width: 318px;
-}
-.intro{
-    font-size: 24px;
+  .plan-head {
+    text-align: left;
+    height: 127px;
+    transform: translateY(-7px);
+    width: 120px;
+  }
+
+  .plan-6 {
+    font-size: 20px;
     font-weight: 700;
     color: #171420;
-}
-.monthly{
-    font-size: 32px;
+  }
+
+  .percent {
+    font-size: 12px;
     font-weight: 500;
-    color: #2A4AF4;
-    margin-top: -20px;
-}
-.buynow{
-    width: 314px;
-    height: 81px;
+    color: #2a4af4;
+    margin-top: -8px;
+  }
+
+  .intoffer {
+    width: 127px;
+  }
+
+  .monthly {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2a4af4;
+    margin-top: -6px;
+  }
+
+  .buynow {
+    width: 112px;
+    height: 52px;
     background-color: #2a4af4;
     border: none;
     border-radius: 10px;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 700;
     color: #ffffff;
+  }
+  .intro {
+    font-size: 14px;
+    font-weight: 700;
+    color: #171420;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+
+    .section-6 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        background-color: #171420;
+        margin-top: 211px;
+    }
+      .freedom {
+        font-size: 29px;
+        font-weight: 700;
+        width: 394px;
+        color: #ffffff;
+        margin-top: 20px;
+      }
+    
+      .head-text-6 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #2a4af4;
+        margin-top: 150px;
+      }
+    
+      .bottom-6 {
+        background-color: #171420;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .boxes-6 {
+        background-color: #171420;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .plan-head {
+        text-align: left;
+        height: 140px;
+        transform: translateY(-52px);
+        width: 318px;
+      }
+      .plan-text {
+        width: 229px;
+      }
+      .plan-6 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #171420;
+      }
+      .percent {
+        font-size: 12px;
+        font-weight: 500;
+        color: #2a4af4;
+        margin-top: -40px;
+      }
+      .list {
+        font-size: 14px;
+        font-weight: 500;
+        color: #5c5c5c;
+        margin-top: -10px;
+      }
+      .box-1-6, .box-2-6, .box-3-6 {
+        width: 296px;
+        height: 515px;
+        background-color: #ffffff;
+        margin-right: 8px;
+        margin-bottom: 46px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin-left: 70px;
+    }
+    .plan-head {
+        text-align: left;
+        height: 127px;
+        transform: translateY(-7px);
+        width: 233px;
+    }
+    
+      .plan-6 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #171420;
+      }
+    
+      .percent {
+        font-size: 12px;
+        font-weight: 500;
+        color: #2a4af4;
+        margin-top: -8px;
+      }
+    
+      .intoffer {
+        width: 223px;
+      }
+    
+      .monthly {
+        font-size: 12px;
+        font-weight: 500;
+        color: #2a4af4;
+        margin-top: -6px;
+      }
+    
+      .buynow {
+        width: 225px;
+        height: 52px;
+        background-color: #2a4af4;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      .intro {
+        font-size: 14px;
+        font-weight: 700;
+        color: #171420;
+      }
+
+
 }

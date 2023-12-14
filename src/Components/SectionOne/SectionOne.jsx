@@ -45,8 +45,8 @@ function SectionOne() {
               ></img>
             </div>
             <div className="server-right">
-              <p style={{fontWeight:"700"}}>Powerfull Server</p>
-              <p style={{fontWeight:"500",marginTop:"-9px"}}> Lorem ipsum dolor sit amet, consectetur.</p>
+              <p className="pow" style={{fontWeight:"700"}}>Powerfull Server</p>
+              <p className="ipsum" style={{fontWeight:"500",marginTop:"-9px"}}> Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
           </div>
 

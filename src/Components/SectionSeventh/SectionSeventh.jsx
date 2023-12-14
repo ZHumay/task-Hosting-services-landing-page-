@@ -10,7 +10,7 @@ function SectionSeventh() {
 
       <div className="bottom-6">
         <img
-          className="img"
+          className="imgg"
           src={require("../../assets/images/Crypto-Trading-Users-Image 1.png")}
           alt="img"
         ></img>

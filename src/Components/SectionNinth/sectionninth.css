@@ -26,27 +26,147 @@
   font-weight: bold;
   width: 621px;
 }
-.left-9{
-    width: 50%;
+.left-9 {
+  width: 50%;
 }
-.right-9{
-    width: 50%;
+.right-9 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 595px;
+  height: 631px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+  background-image: url(../../assets/images/happy-black-man-pointing-at-digital-tablet-screen-YWD94AD-1-800x945.png);
+  background-repeat: no-repeat;
+  background-position: 100px 50px;
+  background-color: #181420;
+}
+.check {
+  margin-top: 120px;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .section-9 {
+    background-color: #1f1d2c;
+    display: flex;
+    flex-direction: column;
+    margin-top: 107px;
+  }
+  .text-9 {
+    margin-left: 18px;
+    margin-right: 94px;
+    width: 195px;
+    text-align: left;
+    margin-top: 90px;
+  }
+  .company-9 {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 27.63px;
+    margin-top: 100px;
+    font-weight: bold;
+    width: 324px;
+  }
+  .lorem {
+    font-size: 10px;
+    font-weight: 500;
+    /* line-height: 27px; */
+    color: #9b9b9b;
+    width: 300px;
+    margin-top: -14px;
+  }
+
+  .right-9 {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .card {
+    background-position: -104px 50px;
+    width: 100%;
+    height: 631px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    background-color: #181420;
+    background-repeat: no-repeat;
 }
-.card{
-width: 595px;
-height: 631px;
-margin-top: 50px;
-margin-bottom: 50px;
-text-align: left;
-background-image: url(../../assets/images/happy-black-man-pointing-at-digital-tablet-screen-YWD94AD-1-800x945.png);
-background-repeat: no-repeat;
-background-position: 100px 50px;
-background-color: #181420;
-}
-.check{
-    margin-top: 120px;
+  .check {
+    margin-top: 21px;
     margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .section-9 {
+    background-color: #1f1d2c;
+    display: flex;
+    flex-direction: column;
+    margin-top: 107px;
+  }
+  .text-9 {
+    margin-left: 18px;
+    margin-right: 94px;
+    width: 195px;
+    text-align: left;
+    margin-top: 90px;
+  }
+
+  .right-9 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .check {
+    margin-top: 21px;
+    margin-left: 16px;
+  }
+  .welcome-9 {
+    font-size: 30px;
+    color: #2a4af4;
+    font-weight: 600;
+    transform: translateY(90px);
+  }
+
+  .company-9 {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 47.63px;
+    margin-top: 100px;
+    font-weight: bold;
+    width: 609px;
+  }
+  .lorem {
+    font-size: 20px;
+    font-weight: 500;
+    /* line-height: 27px; */
+    color: #9b9b9b;
+    width: 467px;
+    margin-top: -14px;
+  }
+
+  .buttons {
+    display: flex;
+    width: 451px;
+  }
+
+  .card {
+    background-position: 141px 50px;
+    width: 785px;
+    height: 631px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    background-color: #181420;
+    background-repeat: no-repeat;
+  }
 }
